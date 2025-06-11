@@ -1,6 +1,6 @@
 #+ summary: "Retrieves all RO-Crates as products according to SKG-IF"
 #+ description: "Retrieves all products according to SKG-IF. NOTE: make sure response content type is application/json"
-#+ endpoint: "https://rohub2020-api-virtuoso-route-rohub2020.apps.paas.psnc.pl/sparql"
+#+ endpoint: "https://rohub2020-api-virtuoso-route-rohub.apps.paas-dev.psnc.pl/sparql"
 #+ endpoint_in_url: False
 #+ method: GET
 #+ transform: {
