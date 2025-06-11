@@ -22,11 +22,10 @@
         "none": "?ro_desc"
     },
     "contributions": 
-    {
+    [{
         "by": "?author_id",
         "role": "author"
-    }
-    
+    }]    
   }],
   "$where": [
     "?id a ro:ResearchObject",
