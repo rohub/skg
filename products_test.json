@@ -1,0 +1,32 @@
+{
+  "@context": [
+        "https://w3id.org/skg-if/context/skg-if.json",
+        {
+            "@base": "https://w3id.org/skg-if/sandbox/oc/",
+            "skg": "https://w3id.org/skg-if/sandbox/oc/",
+            "ro" : "http://purl.org/wf4ever/wf4ever#",
+            "rocrate_researchObject": "http://purl.org/wf4ever/wf4ever#ResearchObject",
+            "rocrate_copyright-owner": "http://purl.org/spar/pro/copyright-owner",
+            "rocrate_hasPart": "http://schema.org/hasPart",
+            "rocrate_email": "http://schema.org/email",
+            "rocrate_w3id": "skg:w3id"
+        }
+  ],
+  "@graph": [{    
+    "entity_type": "product",
+    "local_identifier": "?id",
+    "titles": {
+      "none": "?ro_title"
+    }    
+  }],
+  "$where": [
+    "?id a ro:ResearchObject",
+    "?id dct:title ?ro_title"
+  ],
+  "$prefixes": {    
+    "dct" : "http://purl.org/dc/terms/",
+    "ro" : "http://purl.org/wf4ever/ro#",
+    "pav": "http://purl.org/pav/"
+  },
+  "$limit": 100
+}
