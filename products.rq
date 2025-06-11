@@ -23,7 +23,6 @@
 #+   {
 #+      "entity_type": "product",
 #+      "local_identifier": "?ro_pid",
-#+      "$anchor": "local_identifier",
 #+      "identifiers": [
 #+      {
 #+          "scheme": "rocrate_w3id",
