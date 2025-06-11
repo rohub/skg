@@ -1,0 +1,30 @@
+#+ summary: "Access to all SensorThings resources begins at the base resource path"
+#+ description: "Navigating to the base resource path will return a JSON array of the available SensorThings resource endpoints. NOTE: make sure response content type is application/json"
+#+ endpoint: "https://www.foodie-cloud.org/sparql"
+#+ tags:
+#+   - json
+#+ method: GET
+#+ endpoint_in_url: False
+#+ transform: {
+#+   "description": "?info",
+#+   "$anchor": "description",
+#+   "value": {
+#+     "name": "?name",
+#+     "url": "?url",
+#+   }
+#+ }
+
+PREFIX iliad-api: <https://w3id.org/iliad/jf/api/>
+
+SELECT DISTINCT ?info ?name ?url
+WHERE {
+     VALUES (?info ?name ?url) {
+     ("OGC SensorThings API base resource path" "Things" <https://w3id.org/iliad/jf/api/v1.0/Things>)
+     ("OGC SensorThings API base resource path" "Locations" <https://w3id.org/iliad/jf/api/v1.0/Locations>)
+     ("OGC SensorThings API base resource path" "HistoricalLocations" <https://w3id.org/iliad/jf/api/v1.0/HistoricalLocations>)
+     ("OGC SensorThings API base resource path" "Datastreams" <https://w3id.org/iliad/jf/api/v1.0/Datastreams>)
+     ("OGC SensorThings API base resource path" "Sensors" <https://w3id.org/iliad/jf/api/v1.0/Sensors>)
+     ("OGC SensorThings API base resource path" "Observations" <https://w3id.org/iliad/jf/api/v1.0/Observations>)
+     ("OGC SensorThings API base resource path" "ObservedProperties" <https://w3id.org/iliad/jf/api/v1.0/ObservedProperties>)
+     ("OGC SensorThings API base resource path" "FeaturesOfInterest" <https://w3id.org/iliad/jf/api/v1.0/FeaturesOfInterest>)}
+}
