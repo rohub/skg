@@ -37,9 +37,9 @@
 #+      "abstracts":{
 #+          "none": "?ro_desc"
 #+      },
+#+      "$anchor": "local_identifier",
 #+      "contributions": [
 #+      {
-#+          "$anchor": "local_identifier",
 #+          "by": "?author_id",
 #+          "role": "author"
 #+       }
