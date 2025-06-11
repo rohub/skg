@@ -16,12 +16,23 @@
     "entity_type": "product",
     "local_identifier": "?id",
     "titles": {
-      "none": "?ro_title"
-    }    
+        "none": "?ro_title"
+    },
+    "abstracts":{
+        "none": "?ro_desc"
+    },
+    "contributions": [
+    {
+        "by": "?author_id",
+        "role": "author"
+    }
+    ]
   }],
   "$where": [
     "?id a ro:ResearchObject",
-    "?id dct:title ?ro_title"
+    "?id dct:title ?ro_title",
+    "?id dct:description ?ro_desc",
+    "?id pav:authoredBy ?author_id"
   ],
   "$prefixes": {    
     "dct" : "http://purl.org/dc/terms/",
