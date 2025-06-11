@@ -1,6 +1,6 @@
 #+ summary: "Access to all SensorThings resources begins at the base resource path"
 #+ description: "Navigating to the base resource path will return a JSON array of the available SensorThings resource endpoints. NOTE: make sure response content type is application/json"
-#+ endpoint: "https://www.foodie-cloud.org/sparql"
+#+ endpoint: "https://rohub2020-api-virtuoso-route-rohub2020.apps.paas.psnc.pl/sparql"
 #+ tags:
 #+   - json
 #+ method: GET
