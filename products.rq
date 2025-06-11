@@ -19,6 +19,7 @@
 #+        "rocrate_w3id": "skg:w3id"
 #+      }
 #+   ],
+#+   "$anchor": "@context",
 #+   "@graph": [
 #+   {
 #+      "entity_type": "product",
