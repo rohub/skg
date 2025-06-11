@@ -2,6 +2,8 @@
 #+ description: "Retrieves all products according to SKG-IF. NOTE: make sure response content type is application/json"
 #+ endpoint: "https://rohub2020-api-virtuoso-route-rohub.apps.paas-dev.psnc.pl/sparql"
 #+ endpoint_in_url: False
+#+ limit: 100
+#+ offset: 0
 #+ method: GET
 #+ transform: {
 #+   "@context": [
