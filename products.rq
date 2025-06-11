@@ -11,9 +11,8 @@
 PREFIX dct:<http://purl.org/dc/terms/>
 PREFIX ro:<http://purl.org/wf4ever/ro#>
 
-select ?ro_pid ?ro_id ?ro_title ?ro_desc where {
+select ?ro_pid ?ro_title ?ro_desc where {
    ?ro_pid a ro:ResearchObject ; 
       dct:title ?ro_title ;
-      dct:description ?ro_desc .
-   BIND (CONCAT("ro-id/",REPLACE(STR(?ro_pid), "^.*/([^/]*)$", "$1")) as ?ro_id)
+      dct:description ?ro_desc .   
 }
