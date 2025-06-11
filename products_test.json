@@ -21,22 +21,27 @@
     "abstracts":{
         "none": "?ro_desc"
     },
-    "contributionss": 
+    "contributions": 
     {
         "by": "?author_id",
         "role": "author"
+    },
+    "rocrate_hasPart":{
+        "@id": "?part_id"
     }
   }],
   "$where": [
     "?id a ro:ResearchObject",
     "?id dct:title ?ro_title",
     "?id dct:description ?ro_desc",
-    "?id pav:authoredBy ?author_id"
+    "?id pav:authoredBy ?author_id",
+    "?id ore:aggregates ?part_id" 
   ],
   "$prefixes": {    
     "dct" : "http://purl.org/dc/terms/",
     "ro" : "http://purl.org/wf4ever/ro#",
-    "pav": "http://purl.org/pav/"
+    "pav": "http://purl.org/pav/",
+    "ore": "http://www.openarchives.org/ore/terms/"
   },
   "$limit": 100
 }
