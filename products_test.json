@@ -21,12 +21,12 @@
     "abstracts":{
         "none": "?ro_desc"
     },
-    "contributions": [
+    "contributions": 
     {
         "by": "?author_id",
         "role": "author"
     }
-    ]
+    
   }],
   "$where": [
     "?id a ro:ResearchObject",
