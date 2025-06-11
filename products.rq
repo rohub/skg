@@ -37,13 +37,22 @@
 #+      "abstracts":{
 #+          "none": "?ro_desc"
 #+      },
+#+      "contributions": [
+#+      {
+#+          "$anchor": "local_identifier",
+#+          "by": "?author_id",
+#+          "role": "author"
+#+       }
+#+      ]
 #+   }]
 #+ }
 PREFIX dct:<http://purl.org/dc/terms/>
 PREFIX ro:<http://purl.org/wf4ever/ro#>
-select distinct ?ro_pid ?ro_id ?ro_title ?ro_desc where {
+PREFIX pav: <http://purl.org/pav/>
+select distinct ?ro_pid ?ro_id ?ro_title ?ro_desc ?author_id where {
    ?ro_pid a ro:ResearchObject ; 
       dct:title ?ro_title ;
-      dct:description ?ro_desc .
+      dct:description ?ro_desc ;
+      pav:authoredBy ?author_id .
    BIND (CONCAT("ro-id/",REPLACE(STR(?ro_pid), "^.*/([^/]*)$", "$1")) as ?ro_id)
 }
