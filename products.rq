@@ -3,7 +3,6 @@
 #+ endpoint: "https://rohub2020-api-virtuoso-route-rohub2020.apps.paas.psnc.pl/sparql"
 #+ endpoint_in_url: False
 #+ method: GET
-#+ pagination: 100
 #+ transform: {
 #+   "@context": [
 #+      "https://w3id.org/skg-if/context/skg-if.json",
@@ -36,7 +35,7 @@
 #+      "abstracts":{
 #+          "none": "?ro_desc"
 #+      },
-#+   }
+#+   }]
 #+ }
 
 PREFIX dct:<http://purl.org/dc/terms/>
