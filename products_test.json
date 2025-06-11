@@ -41,7 +41,7 @@
     "?id dct:description ?ro_desc",
     "?id pav:authoredBy ?author_id",
     "?id ore:aggregates ?part_id",
-    "BIND (CONCAT(\"ro-id/\",REPLACE(STR(?ro_pid), \"^.*/([^/]*)$\", \"$1\")) as ?ro_id)" 
+    "BIND (CONCAT(\"ro-id/\",REPLACE(STR(?id), \"^.*/([^/]*)$\", \"$1\")) as ?ro_id)" 
   ],
   "$prefixes": {    
     "dct" : "http://purl.org/dc/terms/",
