@@ -14,14 +14,18 @@
   ],
   "@graph": [{    
     "entity_type": "product",
-    "local_identifier": "?id",
+    "local_identifier": "?id$anchor",
     "titles": {
         "none": "?ro_title"
     },
     "abstracts":{
         "none": "?ro_desc"
     },
-    "contributions":"?author_id$anchor"    
+    "contributionss": 
+    {
+        "by": "?author_id",
+        "role": "author"
+    }
   }],
   "$where": [
     "?id a ro:ResearchObject",
