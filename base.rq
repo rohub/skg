@@ -2,7 +2,7 @@
 #+ description: "Navigating to the base resource path will return a JSON array of the available SensorThings resource endpoints. NOTE: make sure response content type is application/json"
 #+ endpoint: "https://rohub2020-api-virtuoso-route-rohub.apps.paas-dev.psnc.pl/sparql"
 #+ tags:
-#+   - json
+#+   - rq
 #+ method: GET
 #+ endpoint_in_url: False
 #+ transform: {

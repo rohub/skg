@@ -4,6 +4,8 @@
 #+ endpoint_in_url: False
 #+ limit: 100
 #+ offset: 0
+#+ tags:
+#+   - rq
 #+ method: GET
 #+ transform: {
 #+   "@context": [
