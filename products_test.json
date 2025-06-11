@@ -21,11 +21,7 @@
     "abstracts":{
         "none": "?ro_desc"
     },
-    "contributions": 
-    [{
-        "by": "?author_id",
-        "role": "author"
-    }]    
+    "contributions":"?author_id$anchor"    
   }],
   "$where": [
     "?id a ro:ResearchObject",
