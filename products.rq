@@ -19,11 +19,11 @@
 #+        "rocrate_w3id": "skg:w3id"
 #+      }
 #+   ],
-#+   "$anchor": "@context",
 #+   "@graph": [
 #+   {
 #+      "entity_type": "product",
 #+      "local_identifier": "?ro_pid",
+#+       "$anchor": "local_identifier",
 #+      "identifiers": [
 #+      {
 #+          "scheme": "rocrate_w3id",
@@ -37,7 +37,6 @@
 #+      "abstracts":{
 #+          "none": "?ro_desc"
 #+      },
-#+      "$anchor": "local_identifier",
 #+      "contributions": [
 #+      {
 #+          "by": "?author_id",
