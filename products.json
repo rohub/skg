@@ -48,6 +48,7 @@
     "?id dct:title ?ro_title",
     "?id dct:description ?ro_desc",
     "?id pav:authoredBy ?author_id",
+    "?id pav:contributedBy ?contributor_id",
     "?id ore:aggregates ?part_id",
     "?id dct:created ?created",
     "?id dct:modified ?modified",
