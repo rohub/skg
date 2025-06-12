@@ -33,7 +33,15 @@
     },
     "rocrate_hasPart":{
         "@id": "?part_id"
-    }
+    },
+    "dates":{
+      "publication": "?created",
+      "creation": "?created",
+      "modified": "?modified"
+    },
+    "funding": "?funding",
+    "topics": "?subject",
+    "hosting_data_source": "https://doi.org/10.25504/FAIRsharing.d3c5fd"
   }],
   "$where": [
     "?id a ro:ResearchObject",
@@ -41,13 +49,18 @@
     "?id dct:description ?ro_desc",
     "?id pav:authoredBy ?author_id",
     "?id ore:aggregates ?part_id",
+    "?id dct:created ?created",
+    "?id dct:modified ?modified",
+    "?id sch:funding ?funding",
+    "?id dct:subject ?subject",
     "BIND (CONCAT(\"ro-id/\",REPLACE(STR(?id), \"^.*/([^/]*)$\", \"$1\")) as ?ro_id)" 
   ],
   "$prefixes": {    
     "dct" : "http://purl.org/dc/terms/",
     "ro" : "http://purl.org/wf4ever/ro#",
     "pav": "http://purl.org/pav/",
-    "ore": "http://www.openarchives.org/ore/terms/"
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "sch": "http://schema.org/"
   },
   "$limit": 100
 }
