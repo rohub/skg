@@ -53,7 +53,7 @@
     "?id dct:created ?created",
     "?id dct:modified ?modified",
     "OPTIONAL { ?id sch:funding ?funding}",
-    "?id dct:subject ?subject",
+    "OPTIONAL { ?id dct:subject ?subject}",
     "BIND (CONCAT(\"ro-id/\",REPLACE(STR(?id), \"^.*/([^/]*)$\", \"$1\")) as ?ro_id)" 
   ],
   "$prefixes": {    
