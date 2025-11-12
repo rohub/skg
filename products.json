@@ -7,7 +7,7 @@
             "ro" : "http://purl.org/wf4ever/wf4ever#",
             "rocrate_researchObject": "http://purl.org/wf4ever/wf4ever#ResearchObject",
             "rocrate_copyright-owner": "http://purl.org/spar/pro/copyright-owner",
-            "rocrate_hasPart": "http://schema.org/hasPart",
+            "rocrate_has_part": "http://schema.org/hasPart",
             "rocrate_email": "http://schema.org/email"            
         }
   ],
@@ -45,9 +45,9 @@
         "class": "https://schema.org/Dataset"
       },
       "dates":{
-        "publication": ["?created"],
-        "creation": ["?created"],
-        "modified": ["?modified"]
+        "publication": "?created",
+        "creation": "?created",
+        "modified": "?modified"
       },
       "identifiers":
         {
@@ -57,8 +57,8 @@
     },
     "funding": "?funding$asList",
     "topics": "?subject$asList",
-    "rocrate_hasPart":{
-        "@id": "?part_id"
+    "related_products":{
+        "rocrate_has_part": "?part_id$asList"
     },
     "hosting_data_source": "https://doi.org/10.25504/FAIRsharing.d3c5fd"
   }],
