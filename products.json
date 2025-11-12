@@ -36,7 +36,7 @@
         "by": "?author_id",
         "role": "author"
     },    
-    "manifestations":[{
+    "manifestations":{
       "type": {
         "labels": {
           "en": "RO-Crate"
@@ -54,7 +54,7 @@
           "scheme": "w3id",
           "value": "?ro_id"
         }      
-    }],
+    },
     "funding": ["?funding"],
     "topics": ["?subject"],
     "rocrate_hasPart":{
