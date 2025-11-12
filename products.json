@@ -43,7 +43,7 @@
         "class": "https://schema.org/Dataset"
       },
       "dates":{
-        "publication": "?created",
+        "publication": ["?created"],
         "creation": "?created",
         "modified": "?modified"
       }
