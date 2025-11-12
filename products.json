@@ -26,10 +26,10 @@
       }
     ],
     "titles": {
-        "none": ["?ro_title"]
+        "none": "?ro_title"
     },
     "abstracts":{
-        "none": ["?ro_desc"]
+        "none": "?ro_desc"
     },
     "contributions": 
     [{
