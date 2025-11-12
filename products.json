@@ -8,8 +8,7 @@
             "rocrate_researchObject": "http://purl.org/wf4ever/wf4ever#ResearchObject",
             "rocrate_copyright-owner": "http://purl.org/spar/pro/copyright-owner",
             "rocrate_hasPart": "http://schema.org/hasPart",
-            "rocrate_email": "http://schema.org/email",
-            "rocrate_w3id": "skg:w3id"
+            "rocrate_email": "http://schema.org/email"            
         }
   ],
   "@graph": [{    
@@ -17,7 +16,7 @@
     "local_identifier": "?id$anchor",
     "identifiers": 
     {
-        "scheme": "rocrate_w3id",
+        "scheme": "w3id",
         "value": "?ro_id"
     },
     "titles": {
@@ -46,7 +45,16 @@
         "publication": ["?created"],
         "creation": ["?created"],
         "modified": ["?modified"]
-      }
+      },
+      "identifiers":[ 
+      {
+          "scheme": "w3id",
+          "value": "?ro_id"
+      },
+      {
+          "scheme": "url",
+          "value": "?id"
+      }]
     },
     "funding": "?funding",
     "topics": "?subject",
