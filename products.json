@@ -57,9 +57,9 @@
     },
     "funding": "?funding$asList",
     "topics": "?subject$asList",
-    "related_products":{
-        "rocrate_has_part": "?part_id"
-    },
+    
+        "rocrate_has_part": "?part_id",
+    
     "hosting_data_source": "https://doi.org/10.25504/FAIRsharing.d3c5fd"
   }],
   "$where": [
