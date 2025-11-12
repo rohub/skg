@@ -32,10 +32,10 @@
         "none": "?ro_desc"
     },
     "contributions": 
-    [{
+    {
         "by": "?author_id",
         "role": "author"
-    }],
+    },
     "rocrate_hasPart":{
         "@id": "?part_id"
     },
