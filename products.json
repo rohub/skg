@@ -47,11 +47,11 @@
         "creation": ["?created"],
         "modified": ["?modified"]
       },
-      "identifiers":[ 
+      "identifiers":
       {
           "scheme": "w3id",
           "value": "?ro_id"
-      }]
+      }
     },
     "funding": "?funding",
     "topics": "?subject",
