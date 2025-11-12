@@ -44,8 +44,8 @@
       },
       "dates":{
         "publication": ["?created"],
-        "creation": "?created",
-        "modified": "?modified"
+        "creation": ["?created"],
+        "modified": ["?modified"]
       }
     },
     "funding": "?funding",
