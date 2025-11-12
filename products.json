@@ -35,10 +35,7 @@
     {
         "by": "?author_id",
         "role": "author"
-    },
-    "rocrate_hasPart":{
-        "@id": "?part_id"
-    },
+    },    
     "manifestations":[{
       "type": {
         "labels": {
@@ -60,6 +57,9 @@
     }],
     "funding": ["?funding"],
     "topics": ["?subject"],
+    "rocrate_hasPart":{
+        "@id": "?part_id"
+    },
     "hosting_data_source": "https://doi.org/10.25504/FAIRsharing.d3c5fd"
   }],
   "$where": [
