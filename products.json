@@ -6,7 +6,7 @@
             "skg": "https://w3id.org/skg-if/sandbox/oc/",
             "ro" : "http://purl.org/wf4ever/wf4ever#",
             "rocrate_researchObject": "http://purl.org/wf4ever/wf4ever#ResearchObject",
-            "rocrate_copyright-owner": "http://purl.org/spar/pro/copyright-owner",
+            "rocrate_copyright_owner": "http://purl.org/spar/pro/copyright-owner",
             "rocrate_has_part": "http://schema.org/hasPart",
             "rocrate_email": "http://schema.org/email"            
         }
