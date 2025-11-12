@@ -36,7 +36,7 @@
         "by": "?author_id",
         "role": "author"
     },    
-    "manifestations":{
+    "manifestations$asList":{
       "type": {
         "labels": {
           "en": "RO-Crate"
