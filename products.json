@@ -55,8 +55,8 @@
           "value": "?ro_id"
         }      
     },
-    "funding": ["?funding"],
-    "topics": ["?subject"],
+    "funding": "?funding$asList",
+    "topics": "?subject$asList",
     "rocrate_hasPart":{
         "@id": "?part_id"
     },
