@@ -18,10 +18,6 @@
       {
         "scheme": "w3id",
         "value": "?ro_id"
-      },
-      {
-        "scheme": "url",
-        "value": "?id"
       }
     ],
     "titles": {
