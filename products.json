@@ -13,6 +13,7 @@
   ],
   "@graph": [{    
     "entity_type": "product",
+    "product_type": "research data",
     "local_identifier": "?id$anchor",
     "identifiers":[
       {
@@ -25,20 +26,20 @@
       }
     ],
     "titles": {
-        "none": "?ro_title"
+        "none": ["?ro_title"]
     },
     "abstracts":{
-        "none": "?ro_desc"
+        "none": ["?ro_desc"]
     },
     "contributions": 
-    {
+    [{
         "by": "?author_id",
         "role": "author"
-    },
+    }],
     "rocrate_hasPart":{
         "@id": "?part_id"
     },
-    "manifestations":{
+    "manifestations":[{
       "type": {
         "labels": {
           "en": "RO-Crate"
@@ -56,9 +57,9 @@
           "scheme": "w3id",
           "value": "?ro_id"
         }      
-    },
-    "funding": "?funding",
-    "topics": "?subject",
+    }],
+    "funding": ["?funding"],
+    "topics": ["?subject"],
     "hosting_data_source": "https://doi.org/10.25504/FAIRsharing.d3c5fd"
   }],
   "$where": [
