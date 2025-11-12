@@ -14,12 +14,12 @@
   "@graph": [{    
     "entity_type": "product",
     "local_identifier": "?id$anchor",
-    "identifiers":[ 
+    "identifiers":
       {
         "scheme": "w3id",
         "value": "?ro_id"
       }
-    ],
+    ,
     "titles": {
         "none": "?ro_title"
     },
@@ -47,11 +47,11 @@
         "creation": ["?created"],
         "modified": ["?modified"]
       },
-      "identifiers":[ 
+      "identifiers": 
       {
           "scheme": "w3id",
           "value": "?ro_id"
-      }]
+      }
     },
     "funding": "?funding",
     "topics": "?subject",
