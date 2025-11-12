@@ -14,11 +14,16 @@
   "@graph": [{    
     "entity_type": "product",
     "local_identifier": "?id$anchor",
-    "identifiers": 
-    {
+    "identifiers":[ 
+      {
         "scheme": "w3id",
         "value": "?ro_id"
-    },
+      },
+      {
+        "scheme": "url",
+        "value": "?id"
+      }
+    ],
     "titles": {
         "none": "?ro_title"
     },
