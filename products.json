@@ -34,10 +34,19 @@
     "rocrate_hasPart":{
         "@id": "?part_id"
     },
-    "dates":{
-      "publication": "?created",
-      "creation": "?created",
-      "modified": "?modified"
+    "manifestations":{
+      "type": {
+        "labels": {
+          "en": "RO-Crate"
+        },
+        "defined_in": "https://schema.org/",
+        "class": "https://schema.org/Dataset"
+      },
+      "dates":{
+        "publication": "?created",
+        "creation": "?created",
+        "modified": "?modified"
+      }
     },
     "funding": "?funding",
     "topics": "?subject",
