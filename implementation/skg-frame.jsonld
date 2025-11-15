@@ -31,20 +31,27 @@
         "url": "datacite:url",
         "w3id": "datacite:w3id",            
 
-        "entity_type": { "@id": "@type"},
+        "entity_type": { "@id": "@type" },
         "product": "fabio:Work",    
         
         "titles": { "@id": "dcterms:title", "@container": ["@language", "@set"]},
         "abstracts": { "@id": "dcterms:abstract", "@container": ["@language", "@set"]},
-        
-        "product_type": { "@id": "@type"},
+                        
+        "product_type": {"@id": "rdf:subtype", "@type": "@vocab" },
         "literature": "fabio:ScholarlyWork",
         "research data": "fabio:Dataset",
         "research software": "fabio:Software",
         
         "topics": { "@id": "bido:holdsBibliometricDataInTime", "@container": "@set" },
-        "term": { "@id": "bido:withBibliometricData", "@type": "@vocab"  },  
-        "topic": "fabio:SubjectTerm",         
+        
+        "topic": "fabio:SubjectTerm",   
+        
+        "term": {
+          "@id": "bido:withBibliometricData",
+          "@context": {             
+             "labels": { "@id": "skos:prefLabel", "@container": "@language" }
+          }
+        },
         
         "contributions": {"@id": "pro:isRelatedToRoleInTime", "@container": "@set"},
         "by": { "@id": "pro:isHeldBy", "@type": "@vocab"  },
@@ -60,14 +67,14 @@
         "manifestations": { "@id": "frbr:realization", "@container": "@set"},
 
         "type": {
-          "@id": "rdf:type",
+          "@id": "rdf:type1",
           "@context": {
-             "class": "@id"
+             "class": "@id",
+             "defined_in": { "@id": "skos:inScheme", "@type": "@vocab" },
+             "labels": { "@id": "skos:prefLabel", "@container": "@language" }
           }
         },
-        "defined_in": { "@id": "skos:inScheme", "@type": "@vocab" },
-        "labels": { "@id": "skos:prefLabel", "@container": "@language"  },
-
+                
         "dates": "@nest",
         "publication": { "@id": "dcterms:issued", "@type": "xsd:dateTime", "@nest": "dates", "@container": "@set"},
         "creation": { "@id": "dcterms:created", "@type": "xsd:dateTime", "@nest": "dates", "@container": "@set"},
@@ -99,7 +106,7 @@
         "funder": "frapo:FundingAgency",
                                               
         "grant": "frapo:Grant",
-        "grant_number":  { "@id": "frapo:hasGrantNumber", "@type": "xsd:string" },
+        "grant_number":  { "@id": "frapo:hasGrantNumber" },
         "acronym": "frapo:hasAcronym",
         "funding_agency": { "@id": "frapo:hasFundingAgency" },
                                                                   
@@ -111,10 +118,8 @@
         }
       
     ],
-
-  "local_identifier": {},
-  "entity_type": "product",
-  "product_type": "literature",
+  
+  "local_identifier": {},    
   "identifiers": {
     "value": {},
     "scheme": {}                       

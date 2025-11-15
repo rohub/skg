@@ -1,0 +1,84 @@
+<http://njh.me/xxx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/Work> .
+<http://njh.me/xxx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subtype> <http://purl.org/spar/fabio/Dataset> .
+<http://njh.me/xxx> <http://purl.org/cerif/frapo/isFundedBy> <http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d58999> .
+<http://njh.me/xxx> <http://purl.org/dc/terms/abstract> "There is an urgent need to improve the infrastructure supporting the reuse of scholarly data. A diverse set of stakeholders\u2014representing academia, industry, funding agencies, and scholarly publishers\u2014have come together to design and jointly endorse a concise and measureable set of principles that we refer to as the FAIR Data Principles"@en .
+<http://njh.me/xxx> <http://purl.org/dc/terms/relation> <http://njh.me/otf_session12324_org_xyz> .
+<http://njh.me/xxx> <http://purl.org/dc/terms/title> "The FAIR Guiding Principles for scientific data management and stewardship"@en .
+<http://njh.me/xxx> <http://purl.org/spar/bido/holdsBibliometricDataInTime> _:genid1 .
+<http://njh.me/xxx> <http://purl.org/spar/datacite/hasIdentifier> _:genid2 .
+<http://njh.me/xxx> <http://purl.org/spar/datacite/hasIdentifier> _:genid3 .
+<http://njh.me/xxx> <http://purl.org/spar/pro/isRelatedToRoleInTime> _:genid4 .
+<http://njh.me/xxx> <http://purl.org/spar/pro/isRelatedToRoleInTime> _:genid5 .
+<http://njh.me/xxx> <http://purl.org/vocab/frbr/core#part> <https://w3id.org/ro-id-dev/1fcdaaf0-626c-42cc-bc18-47a47ee3cc53/resources/5d698905-c50b-4024-bcb4-dae8bb9c4599> .
+<http://njh.me/xxx> <http://purl.org/vocab/frbr/core#part> <https://w3id.org/ro-id-dev/1fcdaaf0-626c-42cc-bc18-47a47ee3cc53/folders/8053b2a5-a478-444e-9ee6-985d1b128372> .
+<http://njh.me/xxx> <http://purl.org/vocab/frbr/core#part> <https://w3id.org/ro-id-dev/1fcdaaf0-626c-42cc-bc18-47a47ee3cc53/resources/6a1c51b3-1210-43d3-9e63-8783c363e977> .
+<http://njh.me/xxx> <http://purl.org/vocab/frbr/core#realization> _:genid6 .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d58999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/cerif/frapo/Grant> .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d58999> <http://purl.org/cerif/frapo/hasAcronym> "RELIANCE" .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d58999> <http://purl.org/cerif/frapo/hasFundingAgency> <http://njh.me/otf_session12324_org_1124> .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d58999> <http://purl.org/cerif/frapo/hasGrantNumber> "123456789" .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d58999> <http://purl.org/dc/terms/title> "EU grant ZZ"@en .
+<http://njh.me/otf_session12324_org_1124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://njh.me/otf_session12324_org_1124> <http://purl.org/spar/datacite/hasIdentifier> _:genid7 .
+<http://njh.me/otf_session12324_org_1124> <http://xmlns.com/foaf/0.1/name> "European Commission" .
+_:genid7 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/doi> .
+_:genid7 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "Xyxz.ddfasdfsd" .
+<http://njh.me/otf_session12324_org_xyz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://njh.me/otf_session12324_org_xyz> <http://purl.org/spar/datacite/hasIdentifier> _:genid8 .
+<http://njh.me/otf_session12324_org_xyz> <http://purl.org/spar/datacite/hasIdentifier> _:genid9 .
+<http://njh.me/otf_session12324_org_xyz> <http://purl.org/spar/datacite/hasIdentifier> _:genid10 .
+<http://njh.me/otf_session12324_org_xyz> <http://xmlns.com/foaf/0.1/name> "Brown University" .
+_:genid8 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/ror> .
+_:genid8 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "https://ror.org/05gq02987" .
+_:genid9 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/url> .
+_:genid9 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "https://www.psnc.org" .
+_:genid10 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://w3id.org/ro-id/rohub/model#email> .
+_:genid10 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "info@psnc.org" .
+_:genid1 <http://purl.org/spar/bido/withBibliometricData> <http://eurovoc.europa.eu/4810> .
+_:genid1 <http://purl.org/spar/bido/withBibliometricData> <http://eurovoc.europa.eu/4910> .
+<http://eurovoc.europa.eu/4810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/SubjectTerm> .
+<http://eurovoc.europa.eu/4810> <http://www.w3.org/2004/02/skos/core#prefLabel> "zoology"@en .
+<http://eurovoc.europa.eu/4910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/SubjectTerm> .
+<http://eurovoc.europa.eu/4910> <http://www.w3.org/2004/02/skos/core#prefLabel> "xyz"@en .
+_:genid2 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/doi> .
+_:genid2 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "10.1038/sdata.2016.18" .
+_:genid3 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/pmid> .
+_:genid3 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "26978244" .
+_:genid4 <http://purl.org/co/index> "1"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+_:genid4 <http://purl.org/spar/pro/isHeldBy> <http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589bf8> .
+_:genid4 <http://purl.org/spar/pro/relatesToOrganization> <http://njh.me/32bc66c6-38be-4d5f-85db-d44c9f86921f> .
+_:genid4 <http://purl.org/spar/pro/withRole> <http://purl.org/spar/pro/author> .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589bf8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589bf8> <http://purl.org/spar/datacite/hasIdentifier> _:genid11 .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589bf8> <http://purl.org/spar/datacite/hasIdentifier> _:genid12 .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589bf8> <http://xmlns.com/foaf/0.1/familyName> "Wilkinson" .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589bf8> <http://xmlns.com/foaf/0.1/givenName> "Mark" .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589bf8> <http://xmlns.com/foaf/0.1/name> "Mark Wilkinson" .
+_:genid11 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/orcid> .
+_:genid11 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "0000-0001-6960-357X" .
+_:genid12 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://w3id.org/ro-id/rohub/model#email> .
+_:genid12 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "xyz@example.org" .
+<http://njh.me/32bc66c6-38be-4d5f-85db-d44c9f86921f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://njh.me/32bc66c6-38be-4d5f-85db-d44c9f86921f> <http://xmlns.com/foaf/0.1/name> "Center for Plant Biotechnology and Genomics, Universidad Polit\u00E9cnica de Madrid, Madrid, 28223, Spain" .
+_:genid5 <http://purl.org/co/index> "2"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+_:genid5 <http://purl.org/spar/pro/isHeldBy> <http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589b33> .
+_:genid5 <http://purl.org/spar/pro/relatesToOrganization> <http://njh.me/32bc66c6-38be-4d5f-85db-d44c9f869777> .
+_:genid5 <http://purl.org/spar/pro/withRole> <http://purl.org/spar/pro/contributor> .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589b33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589b33> <http://purl.org/spar/datacite/hasIdentifier> _:genid13 .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589b33> <http://purl.org/spar/datacite/hasIdentifier> _:genid14 .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589b33> <http://xmlns.com/foaf/0.1/familyName> "Doe" .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589b33> <http://xmlns.com/foaf/0.1/givenName> "John" .
+<http://njh.me/614a6575-5d6c-416c-a8e1-f49a5d589b33> <http://xmlns.com/foaf/0.1/name> "John Doe" .
+_:genid13 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://purl.org/spar/datacite/orcid> .
+_:genid13 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "0000-0001-6960-wxyz" .
+_:genid14 <http://purl.org/spar/datacite/usesIdentifierScheme> <http://w3id.org/ro-id/rohub/model#email> .
+_:genid14 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue> "abc@example.org" .
+<http://njh.me/32bc66c6-38be-4d5f-85db-d44c9f869777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://njh.me/32bc66c6-38be-4d5f-85db-d44c9f869777> <http://xmlns.com/foaf/0.1/name> "Poznan Supercomputing and Networking Center" .
+_:genid6 <http://purl.org/dc/terms/created> "2016-03-15"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid6 <http://purl.org/dc/terms/issued> "2016-03-15"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid6 <http://purl.org/dc/terms/modified> "2023-01-04"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type1> <https://schema.org/Dataset> .
+<https://schema.org/Dataset> <http://www.w3.org/2004/02/skos/core#inScheme> <https://schema.org/> .
+<https://schema.org/Dataset> <http://www.w3.org/2004/02/skos/core#prefLabel> "RO-Crate"@en .
