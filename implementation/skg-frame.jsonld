@@ -82,7 +82,7 @@
         "deposit": { "@id": "fabio:hasDepositDate", "@type": "xsd:dateTime", "@nest": "dates", "@container": "@set"},
         "modified": { "@id": "dcterms:modified", "@type": "xsd:dateTime", "@nest": "dates", "@container": "@set"},
 
-        "license": { "@id": "dcterms:license", "@type": "@vocab" },
+        "license": { "@id": "dcterms:license" },
 
         "relevant_organisations": { "@id": "dcterms:relation", "@container": "@set" },
 

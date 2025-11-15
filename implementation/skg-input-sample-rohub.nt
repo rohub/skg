@@ -79,6 +79,7 @@ _:genid14 <http://www.essepuntato.it/2010/06/literalreification/hasLiteralValue>
 _:genid6 <http://purl.org/dc/terms/created> "2016-03-15"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 _:genid6 <http://purl.org/dc/terms/issued> "2016-03-15"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 _:genid6 <http://purl.org/dc/terms/modified> "2023-01-04"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid6 <http://purl.org/dc/terms/license> "http://opensource.org/licenses/MIT" .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type1> <https://schema.org/Dataset> .
 <https://schema.org/Dataset> <http://www.w3.org/2004/02/skos/core#inScheme> <https://schema.org/> .
 <https://schema.org/Dataset> <http://www.w3.org/2004/02/skos/core#prefLabel> "RO-Crate"@en .
